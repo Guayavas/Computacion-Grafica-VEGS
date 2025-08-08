@@ -1,13 +1,53 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> <!-- Indica al navegador que este documento es HTML5. Es obligatorio y va siempre al principio, profe voy a añadir comentarios pero en cosas que no recordaba-->
+<html lang="es"> <!-- El atributo lang indica el idioma del contenido, en este caso español -->
 <head>
-    <meta charset="UTF-8"> <!--permite usar la ñ y caracteres especiales, voy anadir comentarios profe por que hay cosas que no recuerdo-->
+    <meta charset="UTF-8"> <!--permite usar la ñ y caracteres especiales-->
     <title>Curriculum Vitae - Victor Giron</title>
 </head>
     <body>
         <header style="background-color: aqua; padding: 20px; text-align: center;" >
-            <img src="Resources/foto_perfil.PNG" alt="Foto de Victor Giron" style="width: 150px; height: 150px;">
-            <h1 style="margin:10px 0 5px 0;">Victor Giron</h1>
+            <h1 style="color: #f11404; font-size: 2em; margin: 0;">Curriculum Vitae</h1>
+            <img src="Resources/foto_perfil.PNG" alt="Foto de Victor Giron" style="width:120px; border-radius:5px; border:2px solid #ffffff;">
+            <h1 style="margin:10px 0 5px 0;">Victor Emmanuel Girón Solarte</h1>
+            <h2 style="margin:0; font-size:1.2em; color:#333;">Ingeniero de Sistemas | Modelador 3D | Desarrollador Unity</h2>
         </header>
+            <nav style="background:#444; padding:10px; text-align:center;">
+                <a href="#perfil" style="color:#fff; margin:0 15px; text-decoration:none;">Perfil</a>
+                <a href="#educacion" style="color:#fff; margin:0 15px; text-decoration:none;">Educación</a>
+                <a href="#experiencia" style="color:#fff; margin:0 15px; text-decoration:none;">Experiencia</a>
+                <a href="#habilidades" style="color:#fff; margin:0 15px; text-decoration:none;">Habilidades</a>
+                <a href="#proyectos" style="color:#fff; margin:0 15px; text-decoration:none;">Proyectos</a>
+                <a href="#contacto" style="color:#fff; margin:0 15px; text-decoration:none;">Contacto</a>
+            </nav>
+
+        <section id="perfil" style="padding:20px;">
+            <h2 style="text-align: center; padding: 10px; font-size: 40px;">Perfil Profesional</h2>
+            <article>
+                <p style="text-align: center;">
+                    <!--Strong sirve para usar negrita, em para letra cursiva y br es un salto de linea-->
+                    <strong>Ingeniero de Sistemas</strong> con experiencia en <em>desarrollo de aplicaciones</em> y modelado 3D.<br>
+                    <!--abbr: sirve para que cuando pasas el cursos sobre el texto este te de mayor informacion en un texto emergente-->
+                    Apasionado por la tecnología, la innovación y la <abbr title="Realidad Virtual">RV</abbr>.<br>
+                    <small>Siempre en búsqueda de nuevos retos y aprendizajes.</small>
+                </p>
+                 <!--sirver para crear citas, perdon por la cita profe no sabia que escribir-->
+                 <blockquote style="border-left: 4px solid #f11404; margin: 10px 0; padding-left: 10px;">
+                    "La vida me a enseñado a no rendirme, por que si no todo sera mucho peor" – Victor Giron
+                </blockquote>
+                <!-- La etiqueta <pre> (de “preformateado”) sirve para mostrar texto exactamente como lo escribes en el código HTML, respetando los espacios, saltos de línea y tabulaciones
+                    toca tener cuidado que tambien tiene en cuenta donde esta aliniado-->
+<pre style="background:#eee; padding:10px; border-radius:5px;">
+    <code>
+    Habilidades técnicas:
+    - Unity (C#)
+    - Blender (modelado y texturizado)
+    - HTML5, CSS3, JavaScript, Python, SQL
+    - Desarrollo de aplicaciones móviles y web
+    </code>
+</pre>
+            <!--Linea Divisora-->
+            <hr size="2px" color="#000000">
+            </article>
+        </section>
     </body>
 </html>

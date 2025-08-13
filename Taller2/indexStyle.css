@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+
+header{
+    background-color: rgb(213, 226, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    color: rgb(29, 27, 27);
+    text-align: center;
+}
+
+#bottom{
+    background-color: goldenrod;
+}
+
+#bottom h1{
+    text-align: left;
+}
+
+#cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+footer{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h1{
+    text-align: left;
+}
+
+#BUSCADOR{
+    display: flex;
+    justify-content: flex-end;
+    background-color: aliceblue;
+    width: 100px;
+    height: 30px;
+}
+
+#BUSCADOR label{
+    color: black;
+
+}
+

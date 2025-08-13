@@ -1,5 +1,6 @@
 body{
     background-color: aqua;
+        padding: 10px;
 }
 
 header{
@@ -29,10 +30,10 @@ header h1{
 
 }
 #cuadro2{
-    width: 20%;
-    height: 50%;
+   width: 60px;
+   height: 60px;
     background-color: rgb(41, 168, 79);
-
+    margin-left: 10px;
 }
 
 footer{
@@ -52,32 +53,45 @@ footer h1{
     background-color: aliceblue;
     width: 100px;
     height: 30px;
+    margin-right: 10px;
 }
 
 #BUSCADOR label{
     color: black;
+}
 
+label{
+    text-align: center;
 }
 
 #slidebar{
     background-color: bisque;
     height: 300px;
-    width: 15%;
+    width: 20%;
 }
 
 #content{
     background-color: rgb(31, 206, 15);
-    width: 75%;
+    width: 78%;
+
 }
 
 #center{
     display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }
 
 div h1{
     text-align: center;
 }
 
-div{
-    padding: 10px;
+#foterbox{
+    background-color: bisque;
+    margin: auto;
 }
+
+h3{
+    text-align: right;
+}
+

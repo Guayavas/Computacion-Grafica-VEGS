@@ -53,3 +53,25 @@ footer h1{
 
 }
 
+#slidebar{
+    background-color: bisque;
+    height: 300px;
+    width: 15%;
+}
+
+#content{
+    background-color: rgb(31, 206, 15);
+    width: 75%;
+}
+
+#center{
+    display: flex;
+}
+
+div h1{
+    text-align: center;
+}
+
+div{
+    padding: 10px;
+}

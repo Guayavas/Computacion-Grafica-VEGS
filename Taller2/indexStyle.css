@@ -23,9 +23,15 @@ header h1{
 }
 
 #cuadro{
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     background-color: rgb(255, 255, 255);
+
+}
+#cuadro2{
+    width: 20%;
+    height: 50%;
+    background-color: rgb(21, 209, 78);
 
 }
 
